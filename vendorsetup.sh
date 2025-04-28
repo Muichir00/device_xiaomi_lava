@@ -8,7 +8,7 @@ git clone -b eleven https://github.com/Muichir00/vendor_xiaomi_lava.git vendor/x
 
 # device/xiaomi/mt6768-common
 rm -rf device/xiaomi/mt6768-common
-git clone -b lineage-18.1 https://github.com/Muichir00/device_xiaomi_mt6768-common device/xiaomi/mt6768-common --depth=1
+git clone -b 11 https://github.com/Muichir00/device_xiaomi_mt6768-common device/xiaomi/mt6768-common --depth=1
 
 rm -rf device/mediatek/sepolicy/vndr
 git clone -b eleven https://github.com/PixelExperience/device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr --depth=1
